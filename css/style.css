@@ -45,7 +45,7 @@ table {
 
 
 
-{
+`*, *:before, *:after`{
   box-sizing: border-box;
 }
 
@@ -58,13 +58,14 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
+padding: top right bottom left;
+padding: 50px 15px 15px 15px;	
 }
 
-nav {
+.nav {
   margin: 0 auto;
-  padding:top right bottom left;
+  padding: top right bottom left;
   padding: 10px 0 15px 15px;
-  position: fixed;
   width: 420px;
 }
 
@@ -75,19 +76,18 @@ nav {
 .location: hover {
   background-color: dark-grey;
 }
-
+	
 .content h1 { 
-  font-size: 15px;
-  font-weight: 150;
+  font-size: 1.8em;
+  font-weight: 700;
   color: black;
-  display: block; 
+  display: inline-block; 
 }
 
 .content h3 {
-  font-size: 15px;
-  font-weight: 75;
+  font-size: 1.4em;
+  font-weight: 550;
   color: black;
-  display: block;
 }
 
 .arrow {
@@ -95,6 +95,7 @@ nav {
   font-weight: 150;
   color: black
   float: right;
+  display:inline-block;
 }
 
 .arrow-left {
