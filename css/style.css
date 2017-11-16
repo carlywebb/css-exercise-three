@@ -69,7 +69,7 @@ nav {
 }
 
 .location {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
@@ -92,7 +92,7 @@ h3 {
 padding: 10px 15px 15px 15px;
 }
 
-.location: hover {
+div:hover {
   background-color: #4A4A4A;
 }
 
