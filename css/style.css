@@ -62,7 +62,7 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 10px 15px 15px;
   position: fixed;
   width: 420px;
 	background-color: #000000;
@@ -75,7 +75,7 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 12%;
+  padding-top: 10%;
 	background-color: #D8D8D8;
 }
 
@@ -93,7 +93,7 @@ padding: 10px 15px 15px 15px;
 }
 
 div:hover {
-  background-color: #4A4A4A;
+  background-color: #ABA9AB;
 }
 
 .content {
